@@ -1,7 +1,9 @@
 <?php
+
 namespace ThanhRyot\DesignPatterns\Creational\Singleton;
 
-class Singleton {
+class Singleton
+{
 
     private static $instance = null;
 
@@ -12,7 +14,7 @@ class Singleton {
 
     public static function getInstance()
     {
-        if(self::$instance == null){
+        if (self::$instance == null) {
             self::$instance = new self();
         }
         return self::$instance;
