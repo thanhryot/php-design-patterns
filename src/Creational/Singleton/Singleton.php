@@ -5,7 +5,7 @@ class Singleton {
 
     private static $instance = null;
 
-    // make sure other classes don't cannot create instances of this class :^_^:
+    // make sure other classes cannot create instances of this class :^_^:
     private function __construct()
     {
     }
