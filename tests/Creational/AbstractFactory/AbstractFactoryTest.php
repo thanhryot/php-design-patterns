@@ -2,12 +2,12 @@
 
 namespace Tests\Creational\AbstractFactory;
 
-use ThanhRyot\DesignPatterns\Creational\AbstractFactory\SmartPhoneFactory;
-use ThanhRyot\DesignPatterns\Creational\AbstractFactory\XiaomiPhoneFactory;
+use PHPUnit\Framework\TestCase;
 use ThanhRyot\DesignPatterns\Creational\AbstractFactory\ApplePhoneFactory;
 use ThanhRyot\DesignPatterns\Creational\AbstractFactory\Company;
 use ThanhRyot\DesignPatterns\Creational\AbstractFactory\OperatingSystem;
-use PHPUnit\Framework\TestCase;
+use ThanhRyot\DesignPatterns\Creational\AbstractFactory\SmartPhoneFactory;
+use ThanhRyot\DesignPatterns\Creational\AbstractFactory\XiaomiPhoneFactory;
 
 class AbstractFactoryTest extends TestCase
 {
@@ -15,7 +15,7 @@ class AbstractFactoryTest extends TestCase
     {
         return [
             [new XiaomiPhoneFactory()],
-            [new ApplePhoneFactory()]
+            [new ApplePhoneFactory()],
         ];
     }
 

@@ -2,11 +2,11 @@
 
 namespace Tests\Creational\FactoryMethod;
 
-use ThanhRyot\DesignPatterns\Creational\FactoryMethod\CarFactory;
+use PHPUnit\Framework\TestCase;
+use ThanhRyot\DesignPatterns\Creational\FactoryMethod\Bicycle;
 use ThanhRyot\DesignPatterns\Creational\FactoryMethod\BicycleFactory;
 use ThanhRyot\DesignPatterns\Creational\FactoryMethod\Car;
-use ThanhRyot\DesignPatterns\Creational\FactoryMethod\Bicycle;
-use PHPUnit\Framework\TestCase;
+use ThanhRyot\DesignPatterns\Creational\FactoryMethod\CarFactory;
 
 class FactoryMethodTest extends TestCase
 {
@@ -21,5 +21,4 @@ class FactoryMethodTest extends TestCase
         $bicycleFactory = new BicycleFactory(100);
         $this->assertInstanceOf(Bicycle::class, $bicycleFactory->create());
     }
-
 }

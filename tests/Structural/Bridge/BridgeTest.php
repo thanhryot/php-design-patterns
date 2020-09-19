@@ -2,10 +2,10 @@
 
 namespace Test\Structural\Bridge;
 
-use ThanhRyot\DesignPatterns\Structural\Bridge\VPBank;
-use ThanhRyot\DesignPatterns\Structural\Bridge\CheckingAccount;
-use ThanhRyot\DesignPatterns\Structural\Bridge\BlockAccount;
 use PHPUnit\Framework\TestCase;
+use ThanhRyot\DesignPatterns\Structural\Bridge\BlockAccount;
+use ThanhRyot\DesignPatterns\Structural\Bridge\CheckingAccount;
+use ThanhRyot\DesignPatterns\Structural\Bridge\VPBank;
 
 class BridgeTest extends TestCase
 {
@@ -20,5 +20,4 @@ class BridgeTest extends TestCase
         $bank = new VPBank(new BlockAccount());
         $this->assertSame('Open VPBank account and do: Block Account', $bank->openAccount());
     }
-
 }
