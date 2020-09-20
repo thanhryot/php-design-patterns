@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 class BridgeTest extends TestCase
 {
-    public function testCanCheckAccountWithTPBank()
+    public function testCanCheckAccountWithVPBank()
     {
         $bank = new VPBank(new CheckingAccount());
         $this->assertSame('Open VPBank account and do: Check Account', $bank->openAccount());
