@@ -16,7 +16,8 @@ class StateTest extends TestCase
         $this->assertSame('Next song', $player->clickNext());
         $this->assertSame('Previous song', $player->clickPrevious());
 
-        $player->changeState(new LockedState($player));
+        // changing state to "LockedState"
+        $player->clickLock();
 
         $this->assertSame('Lock', $player->clickPlay());
         $this->assertSame('Lock', $player->clickNext());
