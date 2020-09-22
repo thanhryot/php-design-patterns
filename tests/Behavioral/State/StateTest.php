@@ -3,7 +3,6 @@
 namespace Tests\Behavioral\State;
 
 use ThanhRyot\DesignPatterns\Behavioral\State\AudioPlayer;
-use ThanhRyot\DesignPatterns\Behavioral\State\LockedState;
 use PHPUnit\Framework\TestCase;
 
 class StateTest extends TestCase
