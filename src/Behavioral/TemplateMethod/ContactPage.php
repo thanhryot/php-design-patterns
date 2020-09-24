@@ -6,6 +6,6 @@ class ContactPage extends PageTemplate
 {
     public function showBody()
     {
-        return "ContactPage";
+        return 'ContactPage';
     }
 }

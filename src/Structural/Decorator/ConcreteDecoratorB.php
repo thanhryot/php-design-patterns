@@ -6,6 +6,6 @@ class ConcreteDecoratorB extends Decorator
 {
     public function operation()
     {
-        return "ConcreteDecoratorB(" . parent::operation() . ")";
+        return 'ConcreteDecoratorB('.parent::operation().')';
     }
 }

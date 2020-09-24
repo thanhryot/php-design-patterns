@@ -2,10 +2,10 @@
 
 namespace Test\Structural\Adapter;
 
-use ThanhRyot\DesignPatterns\Structural\Adapter\PaperBook;
-use ThanhRyot\DesignPatterns\Structural\Adapter\Kindle;
-use ThanhRyot\DesignPatterns\Structural\Adapter\EbookAdapter;
 use PHPUnit\Framework\TestCase;
+use ThanhRyot\DesignPatterns\Structural\Adapter\EbookAdapter;
+use ThanhRyot\DesignPatterns\Structural\Adapter\Kindle;
+use ThanhRyot\DesignPatterns\Structural\Adapter\PaperBook;
 
 class AdapterTest extends TestCase
 {

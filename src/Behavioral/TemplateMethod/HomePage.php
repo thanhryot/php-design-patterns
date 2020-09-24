@@ -6,6 +6,6 @@ class HomePage extends PageTemplate
 {
     public function showBody()
     {
-        return "HomePage";
+        return 'HomePage';
     }
 }

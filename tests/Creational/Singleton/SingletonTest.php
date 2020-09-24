@@ -1,7 +1,9 @@
 <?php
+
 namespace Tests\Creational\Singleton;
-use ThanhRyot\DesignPatterns\Creational\Singleton\Singleton;
+
 use PHPUnit\Framework\TestCase;
+use ThanhRyot\DesignPatterns\Creational\Singleton\Singleton;
 
 class SingletonTest extends TestCase
 {

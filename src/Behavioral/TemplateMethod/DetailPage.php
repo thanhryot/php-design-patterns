@@ -6,6 +6,6 @@ class DetailPage extends PageTemplate
 {
     public function showBody()
     {
-        return "DetailPage";
+        return 'DetailPage';
     }
 }

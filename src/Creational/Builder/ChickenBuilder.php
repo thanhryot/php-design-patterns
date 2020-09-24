@@ -19,36 +19,42 @@ class ChickenBuilder implements Builder
     public function addName($name)
     {
         $this->chicken->name = $name;
+
         return $this;
     }
 
     public function addAge($age)
     {
         $this->chicken->age = $age;
+
         return $this;
     }
 
     public function addSex($sex)
     {
         $this->chicken->sex = $sex;
+
         return $this;
     }
 
     public function addFoot($foot)
     {
         $this->chicken->sex = $foot;
+
         return $this;
     }
 
     public function addSkinColor($color)
     {
         $this->chicken->skinColor = $color;
+
         return $this;
     }
 
     public function addWing()
     {
         $this->chicken->wing = true;
+
         return $this;
     }
 

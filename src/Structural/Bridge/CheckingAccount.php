@@ -6,6 +6,6 @@ class CheckingAccount implements Account
 {
     public function openAccount()
     {
-        return "Check Account";
+        return 'Check Account';
     }
 }

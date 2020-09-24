@@ -2,9 +2,9 @@
 
 namespace Tests\Behavioral\Observer;
 
+use PHPUnit\Framework\TestCase;
 use ThanhRyot\DesignPatterns\Behavioral\Observer\User;
 use ThanhRyot\DesignPatterns\Behavioral\Observer\UserObserver;
-use PHPUnit\Framework\TestCase;
 
 class ObserverTest extends TestCase
 {

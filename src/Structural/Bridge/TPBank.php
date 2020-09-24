@@ -6,6 +6,6 @@ class TPBank extends Bank
 {
     public function openAccount()
     {
-        return "Open TPBank account and do: ".$this->account->openAccount();
+        return 'Open TPBank account and do: '.$this->account->openAccount();
     }
 }

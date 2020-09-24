@@ -2,9 +2,9 @@
 
 namespace ThanhRyot\DesignPatterns\Behavioral\Observer;
 
-use SplSubject;
-use SplObserver;
 use SplObjectStorage;
+use SplObserver;
+use SplSubject;
 
 class User implements SplSubject
 {
@@ -34,7 +34,6 @@ class User implements SplSubject
     {
         $this->observers->detach($observer);
     }
-
 
     public function notify()
     {
