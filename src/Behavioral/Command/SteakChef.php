@@ -10,6 +10,6 @@ class SteakChef
 {
     public function makeSteak()
     {
-        return "Make a steak!";
+        return 'Make a steak!';
     }
 }

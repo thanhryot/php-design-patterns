@@ -17,7 +17,7 @@ class Steak implements Order
 
     public function getName()
     {
-        return "Steak";
+        return 'Steak';
     }
 
     public function execute()
