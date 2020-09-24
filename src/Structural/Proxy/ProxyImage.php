@@ -16,9 +16,10 @@ class ProxyImage implements Image
     {
         if ($this->image == null) {
             $this->image = new RealImage($this->url);
-            return "Image is loading... :" . $this->image->getImage();
-        }
-        return "Image is loaded! :" . $this->image->getImage();
 
+            return 'Image is loading... :'.$this->image->getImage();
+        }
+
+        return 'Image is loaded! :'.$this->image->getImage();
     }
 }

@@ -6,6 +6,6 @@ class ConcreteComponent implements Component
 {
     public function operation()
     {
-        return "ConcreteComponent";
+        return 'ConcreteComponent';
     }
 }

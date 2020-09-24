@@ -11,16 +11,16 @@ class PlayingState extends State
 
     public function clickPlay()
     {
-        return "Playing";
+        return 'Playing';
     }
 
     public function clickNext()
     {
-        return "Next song";
+        return 'Next song';
     }
 
     public function clickPrevious()
     {
-        return "Previous song";
+        return 'Previous song';
     }
 }

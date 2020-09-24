@@ -2,8 +2,8 @@
 
 namespace Tests\Behavioral\State;
 
-use ThanhRyot\DesignPatterns\Behavioral\State\AudioPlayer;
 use PHPUnit\Framework\TestCase;
+use ThanhRyot\DesignPatterns\Behavioral\State\AudioPlayer;
 
 class StateTest extends TestCase
 {

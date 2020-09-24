@@ -2,8 +2,8 @@
 
 namespace ThanhRyot\DesignPatterns\Behavioral\Observer;
 
-use SplSubject;
 use SplObserver;
+use SplSubject;
 
 class UserObserver implements SplObserver
 {
@@ -16,7 +16,6 @@ class UserObserver implements SplObserver
     {
         $this->changedUsers[] = clone $subject;
     }
-
 
     public function getChangedUsers()
     {

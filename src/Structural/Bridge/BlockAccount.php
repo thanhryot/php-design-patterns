@@ -6,6 +6,6 @@ class BlockAccount implements Account
 {
     public function openAccount()
     {
-        return "Block Account";
+        return 'Block Account';
     }
 }

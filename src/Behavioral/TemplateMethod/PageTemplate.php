@@ -6,26 +6,26 @@ abstract class PageTemplate
 {
     protected function showHeader()
     {
-        return "Header";
+        return 'Header';
     }
 
     protected function showNavigation()
     {
-        return "Navigation";
+        return 'Navigation';
     }
 
     protected function showFooter()
     {
-        return "Footer";
+        return 'Footer';
     }
 
     abstract public function showBody();
 
     final public function showPage()
     {
-        return $this->showHeader() . ' - ' .
-            $this->showNavigation() . ' - ' .
-            $this->showBody() . ' - ' .
+        return $this->showHeader().' - '.
+            $this->showNavigation().' - '.
+            $this->showBody().' - '.
             $this->showFooter();
     }
 }

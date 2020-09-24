@@ -2,11 +2,11 @@
 
 namespace Tests\Behavioral\Strategy;
 
+use PHPUnit\Framework\TestCase;
 use ThanhRyot\DesignPatterns\Behavioral\Strategy\Context;
 use ThanhRyot\DesignPatterns\Behavioral\Strategy\StrategyAdd;
-use ThanhRyot\DesignPatterns\Behavioral\Strategy\StrategySubtract;
 use ThanhRyot\DesignPatterns\Behavioral\Strategy\StrategyMultiply;
-use PHPUnit\Framework\TestCase;
+use ThanhRyot\DesignPatterns\Behavioral\Strategy\StrategySubtract;
 
 class StrategyTest extends TestCase
 {

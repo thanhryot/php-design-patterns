@@ -19,30 +19,35 @@ class DogBuilder implements Builder
     public function addName($name)
     {
         $this->dog->name = $name;
+
         return $this;
     }
 
     public function addAge($age)
     {
         $this->dog->age = $age;
+
         return $this;
     }
 
     public function addSex($sex)
     {
         $this->dog->sex = $sex;
+
         return $this;
     }
 
     public function addFoot($foot)
     {
         $this->dog->sex = $foot;
+
         return $this;
     }
 
     public function addSkinColor($color)
     {
         $this->dog->skinColor = $color;
+
         return $this;
     }
 

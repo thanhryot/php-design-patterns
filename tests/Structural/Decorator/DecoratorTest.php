@@ -2,10 +2,10 @@
 
 namespace Test\Structural\Decorator;
 
+use PHPUnit\Framework\TestCase;
 use ThanhRyot\DesignPatterns\Structural\Decorator\ConcreteComponent;
 use ThanhRyot\DesignPatterns\Structural\Decorator\ConcreteDecoratorA;
 use ThanhRyot\DesignPatterns\Structural\Decorator\ConcreteDecoratorB;
-use PHPUnit\Framework\TestCase;
 
 class DecoratorTest extends TestCase
 {
@@ -29,7 +29,7 @@ class DecoratorTest extends TestCase
         $concreteComponent = new ConcreteComponent();
         $concreteDecoratorA = new ConcreteDecoratorA($concreteComponent);
         $concreteDecoratorB = new ConcreteDecoratorB($concreteDecoratorA);
-        
+
         $this->assertSame('ConcreteDecoratorB(ConcreteDecoratorA(ConcreteComponent))', $concreteDecoratorB->operation());
     }
 }

@@ -4,7 +4,6 @@ namespace ThanhRyot\DesignPatterns\Creational\Singleton;
 
 class Singleton
 {
-
     private static $instance = null;
 
     // make sure other classes cannot create instances of this class :^_^:
@@ -17,6 +16,7 @@ class Singleton
         if (self::$instance == null) {
             self::$instance = new self();
         }
+
         return self::$instance;
     }
 }
