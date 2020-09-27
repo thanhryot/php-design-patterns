@@ -6,6 +6,6 @@ class AccountService
 {
     public function confirmBuy()
     {
-        return "Confirm customer buy a product!";
+        return 'Confirm customer buy a product!';
     }
 }

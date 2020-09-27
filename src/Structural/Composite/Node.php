@@ -2,9 +2,8 @@
 
 namespace ThanhRyot\DesignPatterns\Structural\Composite;
 
-
 /**
- * Composite
+ * Composite.
  */
 class Node implements Component
 {
@@ -21,6 +20,7 @@ class Node implements Component
         foreach ($this->children as $child) {
             $results[] = $child->operation();
         }
+
         return implode(' - ', $results);
     }
 

@@ -39,10 +39,10 @@ class FlyweightTest extends TestCase
             'C++ - function',
             'C++ - condition',
             'C++ - declare',
-            'C++ - loop'
+            'C++ - loop',
         ];
 
-        $realData = array();
+        $realData = [];
         $flyweightFactory = new FlyweightFactory();
         foreach ($this->dataUniques as $dataUnique) {
             foreach ($this->dataShares as $share) {

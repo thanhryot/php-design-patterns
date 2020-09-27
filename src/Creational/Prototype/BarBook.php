@@ -4,10 +4,9 @@ namespace ThanhRyot\DesignPatterns\Creational\Prototype;
 
 class BarBook
 {
-    protected $category = "Bar Book";
+    protected $category = 'Bar Book';
 
     public function __clone()
     {
     }
-
 }
