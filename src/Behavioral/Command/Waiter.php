@@ -1,7 +1,6 @@
 <?php
 
 namespace ThanhRyot\DesignPatterns\Behavioral\Command;
-
 /*
  * Invoker
  */

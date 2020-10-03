@@ -1,7 +1,6 @@
 <?php
 
 namespace ThanhRyot\DesignPatterns\Behavioral\Command;
-
 /*
  * ConcreteCommand
  */
@@ -17,7 +16,7 @@ class Steak implements Order
 
     public function getName()
     {
-        return "Steak";
+        return 'Steak';
     }
 
     public function execute()

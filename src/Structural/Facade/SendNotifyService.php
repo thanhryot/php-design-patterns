@@ -6,11 +6,11 @@ class SendNotifyService
 {
     public function sendNotifyToEmail()
     {
-        return "Send notify to email";
+        return 'Send notify to email';
     }
 
     public function sendNotifyToSms()
     {
-        return "Send notify to sms.";
+        return 'Send notify to sms.';
     }
 }

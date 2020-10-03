@@ -9,8 +9,7 @@ class PaperBook implements Book
     public function open()
     {
         $this->page = 1;
-
-        return "Hello, I'm PaperBook!";
+        return 'Hello, I\'m PaperBook!';
     }
 
     public function getPage()

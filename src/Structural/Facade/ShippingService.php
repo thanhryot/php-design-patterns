@@ -6,11 +6,11 @@ class ShippingService
 {
     public function shipFree()
     {
-        return "Free shipping product to customer.";
+        return 'Free shipping product to customer.';
     }
 
     public function shipBasic()
     {
-        return "Shipping product to customer.";
+        return 'Shipping product to customer.';
     }
 }

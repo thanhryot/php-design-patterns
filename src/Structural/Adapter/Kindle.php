@@ -9,7 +9,7 @@ class Kindle implements Ebook
 
     public function unlock()
     {
-        return "Hello, I'm Kindle!";
+        return 'Hello, I\'m Kindle!';
     }
 
     public function getPage()

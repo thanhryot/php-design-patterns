@@ -11,6 +11,6 @@ class Dog extends Animal
 
     public function say()
     {
-        return $this->getName()." say gaugau";
+        return $this->getName().' say gaugau';
     }
 }

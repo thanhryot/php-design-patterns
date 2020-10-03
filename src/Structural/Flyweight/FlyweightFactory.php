@@ -18,6 +18,4 @@ class FlyweightFactory implements \Countable
     {
         return count($this->flyweights);
     }
-
-
 }

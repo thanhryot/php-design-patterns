@@ -9,5 +9,4 @@ class FooBook
     public function __clone()
     {
     }
-
 }

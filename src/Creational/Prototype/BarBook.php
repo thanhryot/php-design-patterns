@@ -9,5 +9,4 @@ class BarBook
     public function __clone()
     {
     }
-
 }

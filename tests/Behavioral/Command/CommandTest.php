@@ -12,12 +12,12 @@ class CommandTest extends TestCase
     public function testCanGetPizza(){
         $waiter = new Waiter();
         $pizzaPlate = $waiter->getOrder(new Pizza());
-        $this->assertSame( "Make a pizza!", $pizzaPlate);
+        $this->assertSame( 'Make a pizza!', $pizzaPlate);
     }
 
     public function testCanGetSteak(){
         $waiter = new Waiter();
         $steakPlate = $waiter->getOrder(new Steak());
-        $this->assertSame( "Make a steak!", $steakPlate);
+        $this->assertSame( 'Make a steak!', $steakPlate);
     }
 }

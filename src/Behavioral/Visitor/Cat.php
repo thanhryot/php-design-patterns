@@ -11,6 +11,6 @@ class Cat extends Animal
 
     public function say()
     {
-        return $this->getName()." say meomeo";
+        return $this->getName().' say meomeo';
     }
 }

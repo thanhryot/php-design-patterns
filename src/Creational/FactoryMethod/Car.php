@@ -13,7 +13,7 @@ class Car implements Product
 
     public function getName()
     {
-        return "Hello, I'm car product!";
+        return 'Hello, I\'m car product!';
     }
 
     public function getPrice()

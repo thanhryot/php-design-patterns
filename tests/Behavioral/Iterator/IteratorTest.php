@@ -10,9 +10,9 @@ class IteratorTest extends TestCase
 {
     public function testCanIteratorBookList()
     {
-        $book1 = new Book("Foo", 'A');
-        $book2 = new Book("Bar", 'B');
-        $book3 = new Book("Fuu", 'C');
+        $book1 = new Book('Foo', 'A');
+        $book2 = new Book('Bar', 'B');
+        $book3 = new Book('Fuu', 'C');
 
         $bookList = new BookList();
         $bookList->add($book1);
@@ -27,6 +27,6 @@ class IteratorTest extends TestCase
         }
 
         $result = implode(' - ', $titleList);
-        $this->assertSame("Foo - Fuu", $result);
+        $this->assertSame('Foo - Fuu', $result);
     }
 }

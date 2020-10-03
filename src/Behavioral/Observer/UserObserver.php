@@ -9,9 +9,6 @@ class UserObserver implements SplObserver
 {
     private $changedUsers = [];
 
-    /**
-     * @param SplSubject $subject
-     */
     public function update(SplSubject $subject)
     {
         $this->changedUsers[] = clone $subject;

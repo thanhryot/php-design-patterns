@@ -6,6 +6,6 @@ class PaymentService
 {
     public function payment()
     {
-        return "Payment successfully";
+        return 'Payment successfully';
     }
 }

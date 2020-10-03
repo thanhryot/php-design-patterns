@@ -13,7 +13,7 @@ class Bicycle implements Product
 
     public function getName()
     {
-        return "Hello, I'm bicycle product!";
+        return 'Hello, I\'m bicycle product!';
     }
 
     public function getPrice()

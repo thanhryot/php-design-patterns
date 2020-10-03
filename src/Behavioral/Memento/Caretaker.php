@@ -2,8 +2,6 @@
 
 namespace ThanhRyot\DesignPatterns\Behavioral\Memento;
 
-use Countable;
-
 class Caretaker
 {
     private $mementos = [];

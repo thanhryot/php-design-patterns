@@ -2,7 +2,6 @@
 
 namespace ThanhRyot\DesignPatterns\Structural\Composite;
 
-
 /**
  * Composite
  */

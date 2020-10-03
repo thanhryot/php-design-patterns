@@ -23,7 +23,7 @@ class ShopFacade
         $this->payment->payment();
         $this->shipping->shipBasic();
         $this->sendNotify->sendNotifyToSms();
-        return "Done!";
+        return 'Done!';
     }
 
     public function buyProductWithFreeShip()
@@ -32,6 +32,6 @@ class ShopFacade
         $this->payment->payment();
         $this->shipping->shipFree();
         $this->sendNotify->sendNotifyToEmail();
-        return "You have purchased the product for free shipping!";
+        return 'You have purchased the product for free shipping!';
     }
 }

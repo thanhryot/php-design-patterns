@@ -23,5 +23,4 @@ class PrototypeTest extends TestCase
             $this->assertInstanceOf(BarBook::class, $book);
         }
     }
-
 }
