@@ -1,2 +1,2 @@
-# Booyah =))
-This is my project on how I learn design patterns and I have practiced coding here!
+# PHP Design Patterns
+List of simple examples of design patterns built in PHP.
