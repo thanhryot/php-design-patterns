@@ -11,12 +11,14 @@ abstract class AbstractHandler implements Handler
         if ($this->nextHandler !== null) {
             return $this->nextHandler->handle($request);
         }
+
         return null;
     }
 
     public function setNext(Handler $handler)
     {
         $this->nextHandler = $handler;
+
         return $handler;
     }
 }

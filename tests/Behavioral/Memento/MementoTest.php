@@ -3,8 +3,8 @@
 namespace Tests\Behavioral\Memento;
 
 use PHPUnit\Framework\TestCase;
-use ThanhRyot\DesignPatterns\Behavioral\Memento\Originator;
 use ThanhRyot\DesignPatterns\Behavioral\Memento\Caretaker;
+use ThanhRyot\DesignPatterns\Behavioral\Memento\Originator;
 
 class MementoTest extends TestCase
 {

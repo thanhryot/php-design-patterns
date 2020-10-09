@@ -25,6 +25,6 @@ class ConcreteMemento implements Memento
 
     public function getVersion()
     {
-        return $this->state . ' - ' . $this->date;
+        return $this->state.' - '.$this->date;
     }
 }

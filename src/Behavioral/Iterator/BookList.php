@@ -2,8 +2,8 @@
 
 namespace ThanhRyot\DesignPatterns\Behavioral\Iterator;
 
-use Iterator;
 use Countable;
+use Iterator;
 
 class BookList implements Iterator, Countable
 {
@@ -18,7 +18,9 @@ class BookList implements Iterator, Countable
     public function remove(Book $book)
     {
         foreach ($this->collection as $key => $item) {
-            if ($item == $book) unset($this->collection[$key]);
+            if ($item == $book) {
+                unset($this->collection[$key]);
+            }
         }
         // restore key sort
         $this->collection = array_values($this->collection);

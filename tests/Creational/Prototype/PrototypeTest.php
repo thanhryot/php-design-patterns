@@ -3,8 +3,8 @@
 namespace Tests\Creational\Prototype;
 
 use PHPUnit\Framework\TestCase;
-use ThanhRyot\DesignPatterns\Creational\Prototype\FooBook;
 use ThanhRyot\DesignPatterns\Creational\Prototype\BarBook;
+use ThanhRyot\DesignPatterns\Creational\Prototype\FooBook;
 
 class PrototypeTest extends TestCase
 {

@@ -3,8 +3,8 @@
 namespace Test\Structural\Composite;
 
 use PHPUnit\Framework\TestCase;
-use ThanhRyot\DesignPatterns\Structural\Composite\Node;
 use ThanhRyot\DesignPatterns\Structural\Composite\Leaf;
+use ThanhRyot\DesignPatterns\Structural\Composite\Node;
 
 class CompositeTest extends TestCase
 {
@@ -13,7 +13,7 @@ class CompositeTest extends TestCase
         /**
          *        Node(origin)
          *    Leaf ---------- Node
-         *                Leaf --- Leaf
+         *                Leaf --- Leaf.
          */
         $origin = new Node();
         $origin->add(new Leaf());
