@@ -19,6 +19,7 @@ class ChatMediator implements Mediator
         foreach ($this->room as $user) {
             $result .= $user->receive($message);
         }
+
         return $result;
     }
 

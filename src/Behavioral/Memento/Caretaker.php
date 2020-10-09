@@ -29,6 +29,7 @@ class Caretaker
         foreach ($this->mementos as $memento) {
             $result[] = $memento->getVersion();
         }
+
         return $result;
     }
 }

@@ -25,6 +25,6 @@ class Book
 
     public function getDescription()
     {
-        return $this->title . ' by ' . $this->author;
+        return $this->title.' by '.$this->author;
     }
 }

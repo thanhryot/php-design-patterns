@@ -20,6 +20,6 @@ class UserImplement implements User
 
     public function receive(string $message)
     {
-        return $this->name . ' receive ' . $message;
+        return $this->name.' receive '.$message;
     }
 }

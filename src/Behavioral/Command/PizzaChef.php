@@ -1,6 +1,7 @@
 <?php
 
 namespace ThanhRyot\DesignPatterns\Behavioral\Command;
+
 /*
  * Receiver
  */
