@@ -12,7 +12,7 @@ List of simple examples of design patterns built in PHP.
 ### [Structural](src/Structural)
 
 * [Adapter](src/Structural/Adapter)
-* [Bridge](src/src/Structural/Bridge)
+* [Bridge](src/Structural/Bridge)
 * [Composite](src/Structural/Composite)
 * [Decorator](src/Structural/Decorator)
 * [Facade](src/Structural/Facade)
